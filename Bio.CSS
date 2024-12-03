@@ -8,23 +8,26 @@
         align-items: flex-start;
         gap: 10px;
     }
-    .profile {
+    .content {
         flex-direction: column;
+        align-items: center;
     }
-    .profile .info {
+    .content .text {
+        width: 100%;
         text-align: center;
-        margin: 0 0 20px 0;
+        margin: 20px 0;
     }
-    .profile .image img {
-        width: 200px;
-        height: 200px;
+    .content .image {
+        width: 100%;
+        text-align: center;
     }
-    .profile .image::before {
-        width: 200px;
-        height: 200px;
+    .content .image img {
+        width: 80%;
+        height: auto;
+        margin-left: 0;
     }
-    .quote, .footer {
-        margin-top: 20px;
+    .title {
+        font-size: 35px;
     }
 }
 

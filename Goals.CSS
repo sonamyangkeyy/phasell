@@ -8,25 +8,27 @@
         align-items: flex-start;
         gap: 10px;
     }
-    .profile {
-        flex-direction: column;
-    }
-    .profile .info {
-        text-align: center;
-        margin: 0 0 20px 0;
-    }
-    .profile .image img {
-        width: 200px;
-        height: 200px;
-    }
-    .profile .image::before {
-        width: 200px;
-        height: 200px;
-    }
-    .quote, .footer {
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+        margin-left: 0;
         margin-top: 20px;
     }
+    .goals-title {
+        font-size: 35px;
+        margin-left: 0;
+        text-align: center;
+    }
+    .goals-list {
+        margin-left: 0;
+        text-align: center;
+    }
+    .goals-list li {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
 }
+
 
    body {
             background-color: #ff00a2;

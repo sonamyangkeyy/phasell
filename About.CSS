@@ -8,23 +8,27 @@
         align-items: flex-start;
         gap: 10px;
     }
-    .profile {
+    .container {
         flex-direction: column;
+        align-items: center;
+        padding: 20px;
     }
-    .profile .info {
+    .profile-pic {
+        margin: 20px 0;
+        width: 150px;
+        height: 150px;
+    }
+    .profile-pic img {
+        width: 100%;
+        height: auto;
+    }
+    .content h1 {
+        font-size: 35px;
+    }
+    .content p {
+        font-size: 18px;
+        max-width: 100%;
         text-align: center;
-        margin: 0 0 20px 0;
-    }
-    .profile .image img {
-        width: 200px;
-        height: 200px;
-    }
-    .profile .image::before {
-        width: 200px;
-        height: 200px;
-    }
-    .quote, .footer {
-        margin-top: 20px;
     }
 }
 

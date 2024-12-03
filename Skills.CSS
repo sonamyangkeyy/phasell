@@ -8,25 +8,22 @@
         align-items: flex-start;
         gap: 10px;
     }
-    .profile {
+    .skills-title {
+        font-size: 35px;
+    }
+    .container {
         flex-direction: column;
+        padding: 20px;
     }
-    .profile .info {
-        text-align: center;
-        margin: 0 0 20px 0;
+    .text {
+        font-size: 1.5em;
     }
-    .profile .image img {
-        width: 200px;
-        height: 200px;
-    }
-    .profile .image::before {
-        width: 200px;
-        height: 200px;
-    }
-    .quote, .footer {
-        margin-top: 20px;
+    .chart {
+        width: 80px;
+        height: 80px;
     }
 }
+
 
 body {
     background-color: #ff69b4;
